@@ -20,3 +20,14 @@
         connection_lifetime: 600
       use_prepared_statements: false
   tables: "!include db2/tables/tables.yaml"
+- name: db3
+  kind: postgres
+  configuration:
+    connection_info:
+      database_url:
+        from_env: CUSTOM_DB_3
+      isolation_level: read-committed
+      pool_settings:
+        connection_lifetime: 600
+      use_prepared_statements: false
+  tables: "!include db3/tables/tables.yaml"
