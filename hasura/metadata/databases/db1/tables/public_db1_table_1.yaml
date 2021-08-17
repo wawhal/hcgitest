@@ -1,18 +1,3 @@
 table:
   name: db1_table_1
   schema: public
-configuration:
-  custom_column_names: {}
-  custom_name: dbTabeOne
-  custom_root_fields:
-    delete: aglkjdskaldsjlka
-    insert: dsalgads
-    select: dbTab
-    select_aggregate: flkdajglkadsg
-    select_by_pk: dbTabakds
-    update: dsalkgjlkdsagja
-select_permissions:
-- permission:
-    columns: []
-    filter: {}
-  role: adga
