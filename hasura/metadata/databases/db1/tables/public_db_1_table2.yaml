@@ -2,6 +2,6 @@ table:
   name: db_1_table2
   schema: public
 object_relationships:
-- name: db1_table_1kjdksajglalk
+- name: db1_table_1_rel
   using:
     foreign_key_constraint_on: table_1_id
